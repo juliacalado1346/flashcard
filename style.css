@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c4a0a0; /* Cor de fundo suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.card-container {
+    text-align: center;
+    background-color: #887373; /* Fundo das cartas */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 30px;
+    width: 300px; /* Largura da caixa */
+}
+
+.card {
+    background-color: #f409b9; /* Cor de fundo das cartas */
+    color: #f1ebeb; /* Cor do texto */
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s; /* Transições suaves */
+}
+
+.card:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+    transform: scale(1.05); /* Efeito de crescimento */
+}
+
+#next-btn {
+    background-color: #0e0f0f; /* Cor do botão */
+    color: #986767; /* Cor do texto do botão */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+#next-btn:hover {
+    background-color: #218838; /* Cor ao passar o mouse */
+}
+
+/* Estilo da resposta, inicialmente escondido */
+#answer {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333; /* Cor do texto da resposta */
+}
